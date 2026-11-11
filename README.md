@@ -42,7 +42,7 @@ Later (out of scope for now): <ideas we have parked>
 
 |------|--------|------------------|
 
-|      | @      | Project manager  |
+|Ebenezer Debrah Junior      | Debrah-Eben   | Project manager  |
 
 |      | @      | Lead developer   |
 
