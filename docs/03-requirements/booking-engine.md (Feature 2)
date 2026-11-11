@@ -1,0 +1,19 @@
+# Feature 2: Real-time Booking Engine
+
+## Description
+Allows authenticated students to select a preferred bed space in a room and temporarily hold it while navigating the verification or external service validation workflow.
+
+## User Persona & Story
+**As an** eligible university student,
+**I want to** click a booking button to secure an available bed space instantly,
+**So that** no other student can take my spot while I complete the necessary administrative tasks.
+
+## Functional Requirements
+* **Authentication Check:** The system MUST verify the student is logged in before allowing a booking action.
+* **Concurrency Lock:** Selecting an available bed space MUST place a temporary 15-minute lock on that specific bed ID so multiple users cannot reserve the same space simultaneously.
+* **State Updates:** Upon successful confirmation, the room's remaining capacity table row MUST instantly decrement by 1.
+
+## Success Criteria (Acceptance Criteria)
+* **Given** a student selects bed space #2 in Room 104,
+* **When** they click "Reserve Space",
+* **Then** the system status for that bed must shift to "Locked-Pending" and a 15-minute countdown must display.

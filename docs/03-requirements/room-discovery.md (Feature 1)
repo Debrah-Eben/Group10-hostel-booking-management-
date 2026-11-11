@@ -1,0 +1,47 @@
+# Feature 1: Room Discovery & Filtering
+
+## Description
+Students can browse available hostels, view specific room types, and filter choices based on their preferences (budget, capacity, gender, and amenities) to quickly find accommodations that fit their needs.
+
+## User Persona & Story
+**As a** resident university student looking for accommodation,
+**I want to** filter and sort available hostel rooms by price, capacity, and location,
+**So that** I can easily find an affordable and compliant room without physically walking to multiple hostels.
+
+## Functional Requirements
+
+### 1. Hostel & Room Browsing
+* **View Dashboard:** The system MUST display a searchable list of all registered hostels on the home dashboard.
+* **Room Detail View:** Clicking a hostel MUST show individual room details including room number, price per semester, and current available bed spaces.
+
+### 2. Search & Filtering Critieria
+The system MUST allow users to filter rooms in real-time by the following metrics:
+* **Price Range:** A slider or input field specifying minimum and maximum price points.
+* **Room Capacity:** Options to choose room types (e.g., 1-in-a-room, 2-in-a-room, 4-in-a-room).
+* **Gender Designation:** Strict filter options separating Male-only, Female-only, or Mixed hostel blocks.
+* **Amenities Checklist:** Checkboxes to filter rooms with specific criteria (e.g., air conditioning, private washrooms, study desks).
+
+### 3. Sorting Mechanics
+* **Sort Options:** Users MUST be able to sort matching rooms by "Price: Low to High", "Price: High to Low", or "Availability: Spaces Remaining".
+
+## Non-Functional Requirements
+
+### 1. Performance & Latency
+* **Search Response Time:** Filter results MUST update and display on screen within 2.0 seconds of user interaction.
+
+### 2. Usability
+* **Responsive Design:** The search page layout MUST adapt gracefully to mobile phones, tablets, and laptops since most campus students search via smartphone.
+
+### 3. Reliability & Accuracy
+* **Real-Time Consistency:** The system MUST immediately reflect room availability changes so students do not attempt to look at or choose a bed space that was just occupied by another user.
+
+## Success Criteria (Acceptance Criteria)
+1. **Scenario: Successful Filter Application**
+   * **Given** a student is on the Room Discovery page,
+   * **When** they filter by "Price < 3500 GHS" and "Capacity: 2-in-a-room",
+   * **Then** the page must only list rooms that strictly match both requirements.
+
+2. **Scenario: Zero Results State**
+   * **Given** a student inputs filter criteria that no active hostel meets,
+   * **When** the search executes,
+   * **Then** the system must display a clear "No hostels found matching your criteria" message rather than breaking the layout.
