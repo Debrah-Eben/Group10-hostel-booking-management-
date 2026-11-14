@@ -4,7 +4,7 @@
 * **Ebenezer Debrah Junior** (@Debrah-Eben) - Current Role: Project Manager
 [Your current role, e.g., Lead Developer]
 * [Member 2 Name] (@[GitHub-Handle]) - Current Role: [Role]
-* [Member 3 Name] (@[GitHub-Handle]) - Current Role: [Role]
+* [KINGSLEY MENSAH ABALO] (@kinnymenz10-ui!) - Current Role: [Tester]
 * [Member 4 Name] (@[GitHub-Handle]) - Current Role: [Role]
 
 ## Problem Statement
