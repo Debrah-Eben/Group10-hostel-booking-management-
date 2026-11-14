@@ -44,7 +44,7 @@ Later (out of scope for now): <ideas we have parked>
 
 |Ebenezer Debrah Junior      | Debrah-Eben   | Project manager  |
 
-|      | @      | Lead developer   |
+|Ofori Emmanuel      | @ Ofori Emmanuel     | Lead developer   |
 
 |      | @      | Tester           |
 
