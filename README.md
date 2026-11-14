@@ -46,7 +46,7 @@ Later (out of scope for now): <ideas we have parked>
 
 |Ofori Emmanuel      | @ Ofori Emmanuel     | Lead developer   |
 
-|      | @      | Tester           |
+|    KINGSLEY MENSAH ABALO  | @   kinnymenz10-ui!   | Tester           |
 
 |      | @      | Documentation lead |
 
